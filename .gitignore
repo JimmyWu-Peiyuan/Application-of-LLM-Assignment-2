@@ -208,7 +208,7 @@ $RECYCLE.BIN/
 *.sqlite3
 
 # API keys and secrets
-.env.local
+.env
 .env.development.local
 .env.test.local
 .env.production.local
