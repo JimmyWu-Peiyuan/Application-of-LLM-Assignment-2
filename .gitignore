@@ -206,6 +206,40 @@ $RECYCLE.BIN/
 *.db
 *.sqlite
 *.sqlite3
+rag_wikipedia_mini.db
+
+# Large files and directories that should not be tracked
+assignment2-rag/
+venv/
+**/venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.Python
+**/build/
+**/develop-eggs/
+**/dist/
+**/downloads/
+**/eggs/
+**/.eggs/
+**/lib/
+**/lib64/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/*.egg-info/
+**/.installed.cfg
+**/*.egg
+**/MANIFEST
+
+# Large binary files
+**/*.dylib
+**/*.so
+**/*.dll
+**/*.exe
+**/*.bin
 
 # API keys and secrets
 .env
